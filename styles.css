@@ -1,0 +1,38 @@
+body {
+  margin: 0px;
+  background-color: #FEFBF6;
+}
+.cover {
+  width: 96.25rem;
+  height: 12.5rem;
+  
+  object-fit: cover;
+  border-radius: 0.625rem;
+  margin-left: 1.875rem;
+  margin-right: 1.875rem;
+  margin-top: -0.625rem;
+}
+.profile {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: -150px;
+}
+hr.myhrline{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: -1px;
+
+}
+
+.paragraph {
+  margin-left: 25rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding-top: 10px;
+  font-size: large;
+}
+
+
