@@ -52,6 +52,18 @@ hr.myhrline{
   margin-top: -1px;
 
 }
+@media only screen and (max-width: 600px) {
+  hr.myhrline{
+    
+
+    width: 90%;
+    margin: 0 auto;
+    
+    
+  
+  }
+}
+
 
 .paragraph {
   margin-left: 25rem;
@@ -59,5 +71,43 @@ hr.myhrline{
   padding-top: 10px;
   font-size: large;
 }
+
+@media only screen and (max-width: 600px) {
+  .paragraph {
+    
+    padding: 0 1em;
+    margin: 0 auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 1rem;
+    font-size: smaller;
+  }
+}
+
+.navvv{
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-top: -40px;
+  font-size: 22px;
+}
+@media only screen and (max-width: 600px) {
+  .navvv{
+    float: left;
+    margin: 0 auto;
+    min-height: 30px;
+    font-size: 68%;
+    font-weight: bold;
+    
+  }
+}
+.h11{
+  margin-left: 25rem
+}
+@media only screen and (max-width: 600px) {
+  .h11{
+    margin: 0 auto;
+    padding: 0 0.6em;
+  }
+}
+
 
 
