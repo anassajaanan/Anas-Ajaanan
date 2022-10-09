@@ -1,7 +1,12 @@
 body {
   margin: 0px;
   background-color: #FEFBF6;
+  
 }
+
+
+
+
 .cover {
   width: 96.25rem;
   height: 12.5rem;
@@ -12,6 +17,16 @@ body {
   margin-right: 1.875rem;
   margin-top: -0.625rem;
 }
+@media only screen and (max-width: 600px) {
+  .cover {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    
+  }
+}
+
+
 .profile {
   width: 200px;
   height: 200px;
@@ -20,6 +35,16 @@ body {
   margin-right: auto;
   display: block;
   margin-top: -150px;
+}
+@media only screen and (max-width: 600px) {
+  .profile {
+  
+  max-width: 30%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  margin-top: -4.5rem;
+  }
 }
 hr.myhrline{
   margin-left: 20px;
