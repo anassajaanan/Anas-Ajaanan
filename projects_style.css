@@ -53,9 +53,10 @@
   .navvv{
     max-width: 100%;
     margin: 0 auto;
-    font-weight:bolder;
-    font-size: 67%;
-    
+    min-height: 30px;
+    font-weight:bold;
+    font-size: clamp(5px, 4vw, 9px);
+    margin-right: 0.2rem;
     
   }
 }

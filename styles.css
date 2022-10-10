@@ -132,11 +132,21 @@ hr.myhrline{
 }
 @media only screen and (max-width: 600px) {
   .cardd{
-    width: 50%;
+    width: 90%;
     object-fit: cover;
     margin: 0 auto;
     padding-top: 0.05rem;
     margin-top: 0.5em;
+  }
+}
+.certificate_class {
+  display: flex;
+  justify-content: space-between;
+}
+@media only screen and (max-width: 600px) {
+  .certificate_class {
+    
+    display: block;
   }
 }
 
