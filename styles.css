@@ -90,11 +90,12 @@ hr.myhrline{
 }
 @media only screen and (max-width: 600px) {
   .navvv{
-    float: left;
+    max-width: 100%;
     margin: 0 auto;
     min-height: 30px;
-    font-size: 68%;
-    font-weight: bold;
+    font-weight:bold;
+    font-size: clamp(5px, 4vw, 9px);
+    margin-right: 0.2rem;
     
   }
 }
@@ -128,7 +129,6 @@ hr.myhrline{
   width: 600px;
   object-fit: cover;
   margin-left: 50px;
-  margin-right: 50px;
 }
 @media only screen and (max-width: 600px) {
   .cardd{
