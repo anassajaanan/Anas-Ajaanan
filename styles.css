@@ -4,15 +4,13 @@ body {
   
 }
 
-
-
-
 .cover {
   width: 96.25rem;
   height: 12.5rem;
-  
+  border-bottom-left-radius: 0.625rem;
+  border-bottom-right-radius: 0.625rem;
   object-fit: cover;
-  border-radius: 0.625rem;
+  
   margin-left: 1.875rem;
   margin-right: 1.875rem;
   margin-top: -0.625rem;
@@ -22,6 +20,7 @@ body {
     max-width: 100%;
     height: auto;
     margin: 0 auto;
+
     
   }
 }
@@ -106,6 +105,37 @@ hr.myhrline{
   .h11{
     margin: 0 auto;
     padding: 0 0.6em;
+  }
+}
+.card_bord{
+  font-size: large;
+  font-weight: normal;
+  color: aliceblue;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  .card_bord{
+    font-size: smaller;
+    font-weight: normal;
+    color: aliceblue;
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
+.cardd{
+  width: 600px;
+  object-fit: cover;
+  margin-left: 50px;
+}
+@media only screen and (max-width: 600px) {
+  .cardd{
+    width: 50%;
+    object-fit: cover;
+    margin: 0 auto;
+    padding-top: 0.05rem;
+    margin-top: 0.5em;
   }
 }
 
